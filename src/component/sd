@@ -1,0 +1,27 @@
+          <div className="card"> 
+            {/* <h1 className="carda"> Business Plan</h1> */}
+            <h2 className="cardb"> $10 - $0.041 daily</h2>
+            <h2 className="cardc"> 720 days</h2>
+            <div className="line"> </div>
+            {/* <ul className="cardsul">
+              <li> Profit for life time </li>
+              <li> Capital will back :- <span className="li-span"> yes</span> </li>
+              <li>  Lifetime Earning </li>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>
+
+          <div className="card"> 
+            {/* <h1 className="carda"> Baby <br />Plan</h1> */}
+            <h2 className="cardb"> $50 - $0.208</h2>
+            <h2 className="cardc"> 720 days</h2>
+            <div className="line"></div>
+            {/* <ul className="cardsul">
+              <li> Profit for life time </li>
+              <li> Capital will call back <span className="li-span"> yes</span> </li>
+              <li>  Lifetime Earning </li>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>

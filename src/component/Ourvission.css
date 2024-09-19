@@ -1,0 +1,126 @@
+.main {
+  width: 100vw;
+height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/ourvision1.svg");
+  background-size: cover;
+  position: relative;
+  /* height: 100vh; */
+  height: fit-content;
+ padding-bottom: 50px; 
+  
+}
+
+
+
+.small {
+  width: 50%;
+  padding-top: 50px;
+
+}
+.small-p {
+  border-left: 2px solid white;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  color: #D6D6D6;
+  font-weight: 300;
+}
+
+
+.small-p1 {
+  border-right: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2rem;
+  color: #D6D6D6;
+  font-weight: 300;
+}
+
+.ourvision-heading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative; /*  Needed for pseudo-element positioning */
+  overflow: hidden;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom ,rgba(255,255,255,1));
+}
+
+
+#Heading-h1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 900;
+  background: linear-gradient(297deg, rgba(255,255,255,1) 0%, rgba(121,121,121,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+#Heading-h1:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%; /* Positions the reflection below the content */
+  left: 0;
+  width: 100%;
+  height: 30px; /* Adjust height for reflection size */
+  background: linear-gradient(
+    to bottom,
+    rgba(67, 10, 10, 0.992) 100%, /* Transparent top */
+    rgba(35, 3, 3, 0.5) 100% /* Gradual fade to black at bottom */
+  );
+  transform: scaleY(-1); /* Flips the reflection vertically */
+}
+
+
+#Heading-img{width: 80px; height: 80px;}
+
+
+
+
+
+@media  (min-width :300px) and (max-width: 600px) {
+  .main{ padding-bottom: 1px; }
+  #Heading-h1{ font-size: 2rem;
+  padding-top: 2rem;  padding-bottom: 2rem;
+  }
+  .small{ width: 90%; padding-top: 1px; display: flex; flex-direction: column-reverse;}
+  #Heading-img{width: 50px; height: 50px;}
+}
+
+
+
+ @media  (min-width :600px) and (max-width: 760px) {
+  #Heading-h1{ font-size: 35px;}
+  .small{ width: 70%;
+
+  }
+
+   
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  (min-width : 760px) and (max-width: 980px) {
+ 
+.main{ padding: 4rem; padding-bottom: 0px; }
+.small{  padding-top: 10px;  width: 100%;}
+.small-p{}
+.small-p1{}
+.ourvision-heading{}
+#Heading-h1{ font-size: 4rem;}
+#Heading-img{}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media  (min-width : 980px) and (max-width: 1280px) {
+
+} 

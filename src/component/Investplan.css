@@ -1,0 +1,293 @@
+.Investplan {
+  background-color: rgb(0, 0, 0);
+  height: fit-content;
+  /* height: 100vh; */
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+}
+.Investplan-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Investplan-h1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  background: linear-gradient(
+    7deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(121, 121, 121, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.Investplan-p {
+
+  padding: 5px;
+  font-size: 1.3rem;
+  letter-spacing: -2%;
+  font-weight: 300;
+  color: #D6D6D6;
+}
+.cardmain {
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.578);
+  
+  padding: 5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.investleftglow {
+  position: absolute;
+
+  left: -200px;
+}
+.investrightglow {
+  position: absolute;
+
+  right: -200px;
+}
+
+.Cards {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  text-align: left;
+  margin: 20px 0px 40px 0px;
+  overflow-x: hidden;
+  display: flex;
+  row-gap: 50px;
+  column-gap: 100px;
+
+  /* padding: 5rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 300px;
+  height: 20rem;
+  border: 1px solid #0077fff0;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  padding: 50px 30px 50px 30px;
+}
+
+.carda {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: -2%;
+}
+.cardb {
+  font-size: 2rem;
+  color: #298cfd;
+  font-weight: bold;
+  text-align: center;
+
+  letter-spacing: -2%;
+}
+.cardc {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+
+
+}
+.line {
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #0075ff;
+  width: 90%;
+  height: 1px;
+}
+.cardsul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.li-span {
+  background-color: #0075ff;
+  border-radius: 40%;
+  padding: 4px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* .cardsbutton {
+  padding: 5px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 85, 186, 1) 0%,
+    rgba(58, 148, 255, 1) 100%
+  );
+  width: 90%;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+} */
+.cardsbutton {
+  width: 90%;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  padding: 5px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 85, 186, 1) 0%,
+    rgba(58, 148, 255, 1) 100%
+  );
+  border: 1px solid #1f83da;
+  box-shadow: 0px 2px 0 rgba(0, 85, 186, 1), 2px 4px 6px #246fe0;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+}
+.cardsbutton:hover {
+  background: rgba(58, 97, 255, 0.859);
+  border: 1px solid rgba(0, 0, 0, .05);
+  box-shadow: 1px 1px 4px rgba(255, 255, 255, .2);
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #1c3dc2;
+  transition: all 250ms linear;
+}
+
+  
+
+
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .Investplan {
+    height: fit-content;
+    padding-top: 2rem;
+  }
+  .card {
+    width: 90vw;
+  }
+  .Investplan-h1 {
+    font-size: 2.2rem;
+  }
+  .Investplan-p {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 29px;
+    text-align: justify;
+  }
+  .cardmain{ padding: 1rem; }
+}
+
+@media (min-width: 600px) and (max-width: 760px) {
+.cardmain{padding: 0.5rem;}
+.Cards {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  text-align: left;
+  margin: 20px 0px 40px 0px;
+  overflow-x: hidden;
+  display: flex;
+  row-gap: 10px;
+  column-gap: 10px;
+
+  /* padding: 5rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  max-width: 220px;
+  height: 20rem;
+  border: 1px solid #0075ff;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  padding: 50px 30px 50px 30px;
+}
+
+.Investplan-h1{font-size: 2.5rem;}
+.Investplan-p{font-size: 1.5rem; flex-wrap: wrap; padding-top: 1rem; padding-right: 1rem;}
+.carda , .cardb , .cardc{font-size: 2rem;}
+
+
+/* .Cards{ column-gap: 10px;}
+.card{.Cards{ column-gap: 10px;}}
+*/ } 
+
+
+@media (min-width: 600px) and (max-width: 760px) {
+  .carda, .cardb, .cardc {
+      font-size: 1.5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 760px) and (max-width: 980px) {
+  .cardmain{padding: 1rem;}
+
+  .Cards {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    text-align: left;
+    margin: 20px 0px 40px 0px;
+    overflow-x: hidden;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+  
+    /* padding: 5rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    min-width: 300px;
+    height: 20rem;
+    border: 1px solid #0075ff;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    padding: 50px 30px 50px 30px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 980px) and (max-width: 1280px) {
+  .cardmain{padding: 1rem;}
+}
