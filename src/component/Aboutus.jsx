@@ -23,6 +23,8 @@ const Aboutus = () => {
           <img src={Group10} alt="" id="aboutusimg" 
           data-aos="fade-right"
  />
+       <div className="header2"> </div>
+
 
         </div>
         <div className="aboutusright">
@@ -50,7 +52,8 @@ const Aboutus = () => {
 
         </div>
       </div>
-      {/* <div className="header23"> </div> */}
+      <div className="header23"> </div>
+
     </>
   );
 };

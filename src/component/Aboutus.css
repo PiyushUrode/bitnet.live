@@ -89,24 +89,56 @@ color: #D6D6D6;
 
 }
 
-.header23{ background-color: black; border: 2px  black ; height: 10px ; filter: blur(5px);}
+/* .header23{ background-color: black; border: 2px  black ; height: 10px ; filter: blur(5px);} */
 
 
-.header2{padding: 0 35px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+.header23 {
 
-
-  background-image: linear-gradient(to top, #000000, rgba(0, 143, 129, 0.0061), rgba(0, 0, 0, 1));
-  width: 100%;
-  min-height: 5vh;
+    padding: 0 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+   position: relative;
+   /* margin-top:-20px ; */
   
-  z-index: 4;}
+    /* background-image: linear-gradient(
+      to top,
+      #000000,
+      rgba(0, 143, 129, 0.0061),
+      rgba(0, 0, 0, 1)
+    ); */
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    filter: blur(15px);
+    width: 100%;
+    min-height: 2vh;
+  
+    z-index: 1;
+  }
 
+  .header23 {
+
+    padding: 0 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+   position: relative;
+   margin-top:-5px ;
+  
+    /* background-image: linear-gradient(
+      to top,
+      #000000,
+      rgba(0, 143, 129, 0.0061),
+      rgba(0, 0, 0, 1)
+    ); */
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    filter: blur(15px);
+    width: 100%;
+    min-height: 2vh;
+  
+    z-index: 1;
+  }
 
 @media  (min-width :600px) and (max-width: 760px) {
     .aboutus{padding: 1rem  ;
@@ -132,7 +164,7 @@ color: #D6D6D6;
     }
     .abtshadowright{position: absolute; top: 0; left: 0;}
   } 
-  .header23{display: none;}
+
   
 
   @media  (min-width :300px) and (max-width: 600px) {
