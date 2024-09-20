@@ -1,4 +1,7 @@
 import React from "react";
+
+
+import "aos/dist/aos.css";
 import "./Ourvission.css";
 import Ourvisionimg from "../images/ourvision.svg"
 import Ourvisionimg2 from "../images/ourmission.svg"
@@ -6,10 +9,16 @@ import Ourvisionimg2 from "../images/ourmission.svg"
 const Ourvission = () => {
   return (
     <>
-      <div className="main">
+      <div className="main" data-aos="fade-up"
+     data-aos-duration="1000"
+    //  data-aos-anchor-placement="center-bottom"
+    //  data-aos-offset="300"
+     data-aos-easing="ease-in"  >
         <div className="small">
           <div className="small-p">
-            <p>
+            <p data-aos="fade-right"
+   
+     data-aos-duration="2000">
               {" "}
               At Bitnet.live, we envision a future where technology seamlessly
               integrates into every aspect of life, revolutionizing how we
@@ -30,7 +39,9 @@ const Ourvission = () => {
 
 
           <div className="ourvision-heading">
-            <h1 id="Heading-h1">  OUR <img id="Heading-img"  src={Ourvisionimg} alt="" /> VISION</h1>
+            <h1 id="Heading-h1">  OUR <img id="Heading-img" data-aos="fade-left"
+   
+     data-aos-duration="1000"  src={Ourvisionimg} alt="" /> VISION</h1>
              </div>
         </div>
       </div>
@@ -45,7 +56,9 @@ const Ourvission = () => {
       <div className="main">
         <div className="small">
           <div className="small-p1">
-            <p>
+            <p data-aos="fade-right"
+     
+     data-aos-duration="2000">
               {" "}
               At Bitnet.live, we envision a future where technology seamlessly
               integrates into every aspect of life, revolutionizing how we
@@ -66,7 +79,9 @@ const Ourvission = () => {
 
 
           <div className="ourvision-heading">
-            <h1  data-text="GeeksforGeeks" id="Heading-h1">  OUR <img id="Heading-img"  src={Ourvisionimg2} alt="" /> MISSION</h1>
+            <h1  data-text="GeeksforGeeks" id="Heading-h1">  OUR <img id="Heading-img"  data-aos="fade-left"
+  
+     data-aos-duration="1000" src={Ourvisionimg2} alt="" /> MISSION</h1>
              </div>
         </div>
       </div>

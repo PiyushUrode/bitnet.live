@@ -161,7 +161,9 @@
     rgba(58, 148, 255, 1) 100%
   );
   border: 1px solid #1f83da;
-  box-shadow: 0px 2px 0 rgba(0, 85, 186, 1), 2px 4px 6px #246fe0;
+  -webkit-box-shadow:0px 0px 19px 3px rgba(84,46,255,0.67);
+-moz-box-shadow: 0px 0px 19px 3px rgba(84,46,255,0.67);
+box-shadow: 0px 0px 19px 3px rgba(84,46,255,0.67);
   font-weight: 900;
   letter-spacing: 1px;
   transition: all 150ms linear;
@@ -169,11 +171,12 @@
 .cardsbutton:hover {
   background: rgba(58, 97, 255, 0.859);
   border: 1px solid rgba(0, 0, 0, .05);
-  box-shadow: 1px 1px 4px rgba(255, 255, 255, .2);
+  /* box-shadow: 1px 1px 4px rgba(255, 255, 255, .2); */
   color: #ffffff;
   text-decoration: none;
   text-shadow: -1px -1px 0 #1c3dc2;
   transition: all 250ms linear;
+
 }
 
   

@@ -1,10 +1,16 @@
 import React from "react";
+import "aos/dist/aos.css";
+
 import "./Investplan.css"
 import Invest1 from "../images/investleftglow.png"
 
 const Investplan = () => {
   return (
-    <div className="Investplan" id="Investmentplan">
+    <div className="Investplan" id="Investmentplan" data-aos="fade-up"
+ 
+     data-aos-duration="1000"
+    //  data-aos-anchor-placement="center-bottom"
+     >
       <div className="Investplan-div">
 
       <h1 className="Investplan-h1"> Subscription Page</h1>

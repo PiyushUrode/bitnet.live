@@ -1,3 +1,5 @@
+import "aos/dist/aos.css";
+
 import React from 'react'
 import "./Howitwork.css"
 import Howitworkimg1 from "../images/howitwork.svg"
@@ -11,10 +13,20 @@ const Howitwork = () => {
   return (
 <>
 
-<div className='howitwork-center' id='howitwork' >
+<div className='howitwork-center' id='howitwork' 
+data-aos="fade-up"
+     data-aos-duration="1000"
+    //  data-aos-anchor-placement="center-bottom"
+    //  data-aos-offset="300"
+    //  data-aos-easing="ease-in"
+      >
        <h1 className='howitwork-h1'> How it work ?</h1>
        </div>
-<div className='howitwork'>
+<div className='howitwork'  data-aos="fade-up"
+     data-aos-duration="1000"
+    //  data-aos-anchor-placement="center-bottom"
+    //  data-aos-offset="300"
+ >
    
     <div className='howitwork-left'> 
         <img src={Howitworkimg1} alt="" />

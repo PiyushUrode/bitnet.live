@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Contact.css";
+import "aos/dist/aos.css";
 import Robot from "../images/robot.png"
 
 const MyForm = ({ formData, handleChange, handleSubmit }) => {
@@ -85,9 +86,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className="contact" id='contact'> 
-        <div className='contact-left'> <img src={Robot} alt="" className='contact-left-img'/>  </div>
-        <div className='contact-right'>
+      <div className="contact" id='contact' data-aos="fade-up" > 
+        <div className='contact-left' data-aos="fade-right"     data-aos-duration="2000"  > <img src={Robot} alt="" className='contact-left-img'/>  </div>
+        <div className='contact-right' data-aos="fade-left"  data-aos-duration="2000" >
           <div className='contact-right-a'>
             <h1 className='contact-right-a-h1'> GET IN TOUCH</h1>
             <div className='contact-right-div'></div>
