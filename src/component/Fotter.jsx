@@ -1,6 +1,10 @@
 import React from 'react';
 import "./Fotter.css";
 import logo from "../images/Bitnet.live.png";
+import icon1 from "../images/icon1.svg"
+import icon2 from "../images/icon2.svg"
+import icon3 from "../images/icon3.svg"
+import icon4 from "../images/icon4.svg"
 
 const Fotter = () => {
   const products = [
@@ -26,16 +30,16 @@ const Fotter = () => {
             </p>
             <div className="footer__social">
               <a href="#" className="footer__social-link">
-                <img src="./src/images/icon1.svg" alt="Social Icon 1" />
+                <img src={icon1} alt="Social Icon 1" />
               </a>
               <a href="#" className="footer__social-link">
-                <img src="./src/images/icon2.svg" alt="Social Icon 2" />
+                <img src={icon2} alt="Social Icon 2" />
               </a>
               <a href="#" className="footer__social-link">
-                <img src="./src/images/icon3.svg" alt="Social Icon 3" />
+                <img src={icon3} alt="Social Icon 3" />
               </a>
               <a href="#" className="footer__social-link">
-                <img src="./src/images/icon4.svg" alt="Social Icon 4" />
+                <img src={icon4} alt="Social Icon 4" />
               </a>
             </div>
           </div>
