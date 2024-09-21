@@ -19,3 +19,8 @@
         width: fit-content;}
         #contacts-1{display: none;}
       }
+
+      @media (min-width: 764px) and (max-width:900px) {
+        .navcar{padding: 1px;}
+
+      }

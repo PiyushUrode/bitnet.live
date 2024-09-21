@@ -77,7 +77,7 @@ const Navbar = () => {
               isNavVisible ? "block" : "hidden"
             }`}
           >
-            <ul className=" navcar  flex    flex-col p-4   md:py-1.5   mt-4 font-medium border border-[--primary-color]  md:rounded-[50px] rounded-lg   md:space-x-[4vmax] rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  text-xl text-black tablet:bg-gray-900    ">
+            <ul className=" navcar  flex    flex-col p-4 md:p-1  md:py-1.5   mt-4 font-medium border border-[--primary-color]  md:rounded-[50px] rounded-lg   md:space-x-[4vmax]  rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  text-xl text-black tablet:bg-gray-900    ">
               <li className="md:border-none border-b-[1px]  border-gradient ">
                 <a href="#header">
                   <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#e18dff] font-outfit   ">

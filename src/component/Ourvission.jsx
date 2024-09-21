@@ -14,7 +14,16 @@ const Ourvission = () => {
     //  data-aos-anchor-placement="center-bottom"
     //  data-aos-offset="300"
      data-aos-easing="ease-in"  >
+
+
         <div className="small">
+
+                    <div className="ourvision-heading">
+            <h1 id="Heading-h1">  OUR <img id="Heading-img" data-aos="fade-left"
+   
+     data-aos-duration="1000"  src={Ourvisionimg} alt="" /> VISION</h1>
+             </div>
+
           <div className="small-p">
             <p data-aos="fade-right"
    
@@ -38,11 +47,7 @@ const Ourvission = () => {
           </div>
 
 
-          <div className="ourvision-heading">
-            <h1 id="Heading-h1">  OUR <img id="Heading-img" data-aos="fade-left"
-   
-     data-aos-duration="1000"  src={Ourvisionimg} alt="" /> VISION</h1>
-             </div>
+
         </div>
       </div>
 
@@ -55,6 +60,14 @@ const Ourvission = () => {
 
       <div className="main">
         <div className="small">
+
+                    <div className="ourvision-heading">
+            <h1  data-text="GeeksforGeeks" id="Heading-h1">  OUR <img id="Heading-img"  data-aos="fade-left"
+  
+     data-aos-duration="1000" src={Ourvisionimg2} alt="" /> MISSION</h1>
+             </div>
+
+             
           <div className="small-p1">
             <p data-aos="fade-right"
      
@@ -78,11 +91,7 @@ const Ourvission = () => {
           </div>
 
 
-          <div className="ourvision-heading">
-            <h1  data-text="GeeksforGeeks" id="Heading-h1">  OUR <img id="Heading-img"  data-aos="fade-left"
-  
-     data-aos-duration="1000" src={Ourvisionimg2} alt="" /> MISSION</h1>
-             </div>
+
         </div>
       </div>
     </>

@@ -14,10 +14,9 @@ const Whychoose = () => {
       <div className="whychoose" data-aos="fade-up"
      data-aos-duration="1000">
 
-        <h1 className="whychoose-h1"> Why Choose Investment Plan</h1>
+        <h1 className="whychoose-h1"> Why Choose Subscription Plan</h1>
         <p className="whychoose-p">
-          Help agencies to define their new business objectives and then create
-          professional software.
+        Buy Subscription to earn attractive bonuses & rewards along with the products. Be a part of our global community & access our multiple tech solutions.
         </p>
 
         <div className="whychoosefeature">
