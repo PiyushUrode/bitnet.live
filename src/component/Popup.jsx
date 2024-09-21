@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Pop.css';
-import Popupimg from "../images/comingsoonimg.png" 
+import Popupimg from "../images/popupimg.jpg" 
 
 function Popup() {
   const [isOpen, setIsOpen] = useState(false);

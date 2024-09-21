@@ -11,7 +11,7 @@ import Header from '../component/Header'
   import Informative from '../component/Informative'
 import Contact from '../component/Contact'
 import Fotter from '../component/Fotter'
-// import Popup from '../component/Popup';
+import Popup from '../component/Popup';
 
 
 
@@ -24,7 +24,7 @@ import Fotter from '../component/Fotter'
 const Homepage = () => {
   return (
 <>
-{/* <Popup/> */}
+<Popup/>
  <Navbar/> 
  <Header/> 
  <Aboutus/>
