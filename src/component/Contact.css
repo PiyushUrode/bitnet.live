@@ -83,7 +83,7 @@
 }
 
 .info {
-  width: 30%;
+  width: 50%;
   font-size: 1.5rem;
 }
 .info1 {
@@ -94,7 +94,7 @@
   background-color: black;
   border-bottom: 2px solid #515151;
 }
-.submit {
+/* #submit {
   font-size: 1.5rem;
   background: linear-gradient(
     27deg,
@@ -103,16 +103,51 @@
   );
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: white;
   align-items: baseline;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-bottom: 2px solid #6640ff;
+flex-direction: column;
+
+  border-bottom: 2px solid #6640ff76;
+
   width: fit-content;
   padding-left: 2rem;
   padding-right: 2rem;
-}
+} */
+
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #7e97b8;
+  background-color: #e0e8ef;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(255, 255, 255, 0.333);
+  border-radius: 40px 40px 40px 40px;
+  padding: 16px 24px 16px 28px;
+  transform: translate(0px, 0px) rotate(0deg);
+  transition: 0.2s;
+  box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+ }
+ 
+ button:hover {
+  color: #516d91;
+  background-color: #E5EDF5;
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+ }
+ 
+ button:active {
+  box-shadow: none;
+ }
+
 
 @media (min-width: 300px) and (max-width: 600px) {
   .contact {

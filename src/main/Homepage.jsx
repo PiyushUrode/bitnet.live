@@ -5,7 +5,7 @@ import Header from '../component/Header'
  import Aboutus from '../component/Aboutus'
  import Ourvission from '../component/Ourvission'
   import Howitwork from '../component/Howitwork'
-  import Investplan from "../component/Investplan"
+  // import Investplan from "../component/Investplan"
  import Whychoose from '../component/Whychoose'
  import Ourproduct from '../component/Ourproduct'
   import Informative from '../component/Informative'
@@ -32,6 +32,9 @@ const Homepage = () => {
  <Howitwork/> 
   {/* <Investplan/>  */}
  <Whychoose/> 
+
+
+ 
  <Ourproduct/>
  <Informative/>
  <Contact/>

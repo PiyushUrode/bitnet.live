@@ -17,7 +17,26 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --primary-gradient: linear-gradient(90deg, #a250ff 30.5%, #2851C5 78%);
+  --primary-color: #2851C5;
+  --secondry1-color: #ab53ea;
+  --secondry-color: #7e0eff;
+  --roadmap-gradient:linear-gradient(180deg, #FF50C5 1.24%, #0C4381 99.12%);
+  --roadmap-gradient2:linear-gradient(360deg, #FF50C5 1.24%, #0C4381 99.12%);
+
+
+  --swiper-pagination-color: var(--secondry1-color);
+  --swiper-pagination-bullet-size: 20px;
+  --swiper-pagination-bullet-width: 14px;
+  --swiper-pagination-bullet-height: 14px;
+  --swiper-pagination-bullet-inactive-color: #ffffff;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
 }
+
+
 
 
 

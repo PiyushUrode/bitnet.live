@@ -56,7 +56,12 @@ const MyForm = ({ formData, handleChange, handleSubmit }) => {
       /> </div>
       <br />
 
-      {/* <button type="submit" className='submit' >Submit</button> */}
+      <button type="submit" className='submit'>
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="css-i6dzq1">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+        </svg>
+        Submit
+      </button>
     </form>
   );
 };
@@ -94,12 +99,12 @@ const Contact = () => {
             <div className='contact-right-div'></div>
           </div>
 
-          <div className='contact-right-aa'>
+          <div className='contact-right-aa' id='submit' > 
             <MyForm 
               formData={formData} 
               handleChange={handleChange} 
               handleSubmit={handleSubmit} 
-            />
+            /> 
           </div>
         </div>
       </div>

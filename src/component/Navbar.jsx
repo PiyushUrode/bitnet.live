@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../images/Bitnet.live.png";
+// import logo from "../images/Bitnet.live.png";
+import logo from "../updated/logoremovenew.png";
 
 const Navbar = () => {
   const [isScrolled, setisScrolled] = useState(false);
@@ -27,10 +28,10 @@ const Navbar = () => {
           " navbarcontain  w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600"
         }
       >
-        <div className=" sm:flex-nowrap   max-w-full h-full  flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
+        <div className=" phone:flex-nowrap   max-w-full h-full  flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
           <a href="" >
             <div className="flex items-center  space-x-3 rtl:space-x-reverse ">
-              <img src={logo} width={200} height={50} alt="VOIP" className="logoimg" />
+              <img src={logo} width={80} height={50} alt="VOIP" className="logoimg" />
               {/* <h1 className=" text-4xl font-bold font-outfit  text-primary-gradient phone:text-xl " > */}
               {/* Bitnet */}
               {/* </h1> */}
@@ -40,7 +41,7 @@ const Navbar = () => {
             <button
               type="button"
               id="contacts-1"
-              className="   btn2 oxanium text-white   font-medium phone:font-light    text-xl first-line  phone:h-[40px]  "
+              className="   btn2 oxanium text-white   font-medium phone:font-bold    text-xl first-line  phone:h-[40px]  "
             >
               {" "}
               <a href="#contact">login</a>
@@ -99,13 +100,13 @@ const Navbar = () => {
                   </div>
                 </a>
               </li>
-              <li className="md:border-none border-b-[1px] border-gradient ">
+              {/* <li className="md:border-none border-b-[1px] border-gradient ">
                 <a href="#Investmentplan">
                   <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">
                   Subscription
                   </div>
                 </a>
-              </li>
+              </li> */}
               <li className="md:border-none border-b-[1px] border-gradient ">
                 <a href="#product">
                   <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">

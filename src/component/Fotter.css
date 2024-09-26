@@ -19,6 +19,8 @@
     flex-wrap: wrap;
     
   }
+
+  .footer__social-link{width: 40px;}
   
   .footer__section {
     flex: 1;

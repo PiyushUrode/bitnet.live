@@ -7,11 +7,12 @@ export default {
   theme: {
     extend: {},
     screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
+
+      'phone': { 'max': '550px' },
+
 
       'md': '840px',
-      // => @media (min-width: 768px) { ... }
+
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }

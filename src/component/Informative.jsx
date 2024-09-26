@@ -3,6 +3,7 @@ import "./Informative.css"
 
 import "aos/dist/aos.css";
 import Book1 from "../images/book.svg"
+import Book3 from "../images/bitnews12.jpg"
 import Book2 from "../images/ball.svg"
 
 
@@ -36,7 +37,7 @@ data-aos-duration="2000">
 >
             <img src= {Book1} alt="" className="informative-right-a-img" />
             <div className="informative-content">
-                <p className="informative-content-p">Welcome to the Bitnet.live BitNews your ultimate source for breaking news, in-depth analysis, and expert insights on Metaverse, AI, Block</p>
+                <p className="informative-content-p"> The metaverse economy is projected to reach new heights by 2026, with leading companies adopting virtual worlds for commerce, education, and entertainment. </p>
                 <button className="informative-content-btn"> Learn More</button>
                  </div>
           </div>
@@ -44,9 +45,9 @@ data-aos-duration="2000">
           <div className="informative-right-b">
 
           <div className="informative-right-aa">
-            <img src={Book1} alt="" className="informative-right-aa-img" />
+            <img src={Book3} alt="" className="informative-right-aa-img" />
             <div className="informative-content-b">
-                <p className="informative-content-p-b">Welcome to the Bitnet.live BitNews your ultimate source for breaking news, in-depth analysis, and expert insights on Metaverse, AI, Block</p>
+                <p className="informative-content-p-b"> AI-powered robots are transforming healthcare, providing advanced diagnostic tools and enhancing patient care.  </p>
                 <button className="informative-content-btn-b"> Learn More</button>
                  </div>
           </div>
