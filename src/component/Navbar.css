@@ -15,7 +15,7 @@
 
     @media (min-width : 200px) and (max-width : 450px) {
       
-      .logoimg{ max-width: 80%; 
+      .logoimg{ max-width: 30%; 
         width: fit-content;}
         #contacts-1{display: none;}
       }
