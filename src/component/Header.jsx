@@ -49,12 +49,14 @@ const Header = () => {
           </h1>
 
               </div>
-          <div className="header-left-p-div">  </div>
-          <img
+          <div className="header-left-p-div">           
+          {/* <img
               src={Neonleft}
               alt=""
               className="header-left-img1"
-            />
+            /> */}
+
+            <div className="header-left-img1"></div>
           <p className="header-left-p"
 data-aos="fade-right"
 data-aos-easing="ease-in-sine"
@@ -71,6 +73,7 @@ data-aos-duration="2000"
             </span>
           </p>
 
+          </div>
 
 
 

@@ -20,7 +20,32 @@
         #contacts-1{display: none;}
       }
 
-      @media (min-width: 764px) and (max-width:900px) {
+      /* @media (min-width: 764px) and (max-width:900px) {
         .navcar{padding: 1px;}
 
-      }
+      } */
+      /* @media  (min-width:200px) and (max-width: 450px) {
+        .navcar {
+          flex-direction: row;         justify-content: space-around; 
+        }
+        
+
+      } */
+
+/* Navbar.css */
+@media   (min-widht:200px) and    (max-width: 440px) {
+  .navcar {
+    flex-direction: row; 
+    justify-content: center; 
+  }
+
+  /* .imgmain{width: 10%;} */
+}
+  
+
+
+
+
+
+
+

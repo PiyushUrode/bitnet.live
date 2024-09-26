@@ -34,7 +34,7 @@
   }
   
   .footer__logo {
-    width: 50%; /* Adjust logo size as needed */
+    width: 25%; /* Adjust logo size as needed */
     margin: 0 auto; /* Center logo horizontally */
   }
   
@@ -55,6 +55,11 @@
     margin-right: 10px; /* Add some spacing between social media icons */
     color: #f5f5f5; /* Set a darker color for social media icons */
     font-size: 1.2rem; /* Increase social media icon size */
+     border-radius: 10px;
+background: #35353585;
+box-shadow:  10px -5px 49px #101010,
+             10px 5px 49px hsl(0, 0%, 100%);
+   
   }
   
   .footer__heading {

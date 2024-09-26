@@ -1,6 +1,7 @@
 import React from 'react'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from '../component/Navbar'
+// import Navbar2 from '../component/Navbar2'
 import Header from '../component/Header'
  import Aboutus from '../component/Aboutus'
  import Ourvission from '../component/Ourvission'
@@ -26,6 +27,7 @@ const Homepage = () => {
 <>
 <Popup/>
  <Navbar/> 
+ {/* <Navbar2/> */}
  <Header/> 
  <Aboutus/>
  <Ourvission/> 

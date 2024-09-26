@@ -36,6 +36,8 @@
   right: -12%;
   padding-left: 50px;
   padding-right: 20px;
+  
+
 }
 .header-left-p-div {
   position: relative;
@@ -80,11 +82,15 @@
 }
 .header-left-img1 {
   position: absolute;
-  bottom: 25px;
-  left: -4px;
+  top: 50%;
+  left: 0;
   /* top: 250px; */
-  height: 300px;
-  width: 232px;
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+background: #black;
+
+box-shadow: 0 0 500px 80px #E730CA;;
 }
 
 #header-right-img2 {

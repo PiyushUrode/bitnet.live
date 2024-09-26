@@ -9,9 +9,9 @@ export default {
     screens: {
 
       'phone': { 'max': '550px' },
+     'tab' : '849px',
 
-
-      'md': '840px',
+      'md': '840px' ,
 
 
       'lg': '1024px',
