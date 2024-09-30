@@ -19,7 +19,7 @@ const Fotter = () => {
   const moreLinks = [
     { href: "#aboutus", title: "About Us" },
     { href: "#howitwork", title: "How it works" },
-    { href: "#Investmentplan", title: "Subscription" },
+    { href: "#whychoose", title: "Subscription" },
   ];
 
   return (
@@ -121,8 +121,8 @@ const Fotter = () => {
           <div className="footer__section">
             <h3 className="footer__heading">Terms and Policies</h3>
             <ul className="footer__list">
-              <li>
-                <a href="Investmentplan" className="footer__link">
+              <li >
+                <a href="whychoose" id="" className="footer__link">
                   {" "}
                  Subscription Now
                 </a>

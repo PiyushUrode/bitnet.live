@@ -11,7 +11,7 @@ import Why4 from "../images/why3.svg"
 const Whychoose = () => {
   return (
     <>
-      <div className="whychoose" data-aos="fade-up"
+      <div className="whychoose" data-aos="fade-up " id="whychoose"
      data-aos-duration="1000">
 
         <h1 className="whychoose-h1"> Why Choose Subscription Plan</h1>
