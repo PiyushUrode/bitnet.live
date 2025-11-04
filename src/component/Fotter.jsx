@@ -1,7 +1,8 @@
 import React from "react";
 import "./Fotter.css";
 // import logo from "../images/Bitnet.live.png";
-import logo from "../updated/logoremovenew.png";
+// import logo from "../updated/logoremovenew.png";
+import logo from "../updated/logo1.jpg";
 import icon1 from "../updated/facebook.png";
 import icon2 from "../updated/whatsapp.png";
 import icon3 from "../updated/insta.png";
@@ -122,7 +123,7 @@ const Fotter = () => {
             <h3 className="footer__heading">Terms and Policies</h3>
             <ul className="footer__list">
               <li >
-                <a href="whychoose" id="" className="footer__link">
+                <a href="#whychoose" id="" className="footer__link">
                   {" "}
                  Subscription Now
                 </a>
@@ -142,7 +143,7 @@ const Fotter = () => {
           </div>
         </div>
 
-        <p className="footer__copyright">© 2024 Bitnet</p>
+        <p className="footer__copyright"> © 2024 Bitnet.live. All Rights Reserved.</p>
       </footer>
     </>
   );

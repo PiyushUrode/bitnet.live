@@ -26,7 +26,9 @@
 }
 .whychoose-p {
   padding: 0.5rem 20rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+
+
   letter-spacing: -2%;
   font-weight: 300;
   color: #D6D6D6;
@@ -112,7 +114,9 @@
   
   }
   .whychoose-h1{  font-size: 2rem;}
-.whychoose-p{ font-size: 1rem; padding: 1rem;}
+.whychoose-p{ font-size: 1rem; padding: 1rem;
+  
+}
 .whychoosefeature1pointh1{ font-size: 1.5rem;}
 
 .whychoosefeature{ display: flex;
@@ -159,14 +163,11 @@
 @media  (min-width : 760px) and (max-width: 980px) {
  
   .whychoose-h1{  font-size: 3.7rem;}
-  .whychoose-p{ font-size: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-align: center;
-    width: 80%;}
+  .whychoose-p{ text-align: center; font-size: 1rem; }
+
 
     .whychoosefeature{padding: 50px; }
-  .whychoosefeature1pointh1{ font-size: 1.7rem;}
+
   .whychoosefeatureicon{
     width: 40px;
     height: 40px;
@@ -176,7 +177,7 @@
 
 @media  (min-width : 200px) and (max-width: 410px){
   .whychoose-h1{  text-align: center;}
-  .whychoose-p{ text-align: center;}
+  .whychoose-p{ text-align: center; }
 .whychoosefeature1{display: flex; gap: 10px; flex-direction: column; align-items: center; justify-content: center; text-align: center;}
 .whychoosefeature1point{align-items: center; justify-content: center; text-align: center;}
 }
@@ -184,12 +185,14 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media  (min-width : 980px) and (max-width: 1280px) {
 .whychoose-h1{  font-size: 4rem;}
-.whychoose-p{ font-size: 2rem;
+.whychoose-p{ 
+
+  font-size: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
   text-align: center;
   width: 80%;}
-.whychoosefeature1pointh1{ font-size: 2rem;}
+
 .whychoosefeatureicon{
   width: 40px;
   height: 40px;

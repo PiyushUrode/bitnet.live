@@ -1,5 +1,6 @@
 
-import logo from "../updated/logoremovenew.png";
+// import logo from "../updated/logoremovenew.png";
+import logo from "../updated/logo1.jpg";
 import { useEffect, useState } from "react";
 import "./Navbar.css";
 // import logo from "../images/Bitnet.live.png";
@@ -101,9 +102,23 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="md:border-none border-b-[1px] border-gradient ">
-                <a href="#howitwork">
+                <a href="#product">
                   <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">
-                    Howitwork
+                    Product
+                  </div>
+                </a>
+              </li>
+              <li className="md:border-none border-b-[1px] border-gradient ">
+                <a href="#BuyVouchers">
+                  <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">
+                    BuyVouchers
+                  </div>
+                </a>
+              </li>
+              <li className="md:border-none border-b-[1px] border-gradient ">
+                <a href="#Contact">
+                  <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">
+                  Contact
                   </div>
                 </a>
               </li>
@@ -114,13 +129,7 @@ const Navbar = () => {
                   </div>
                 </a>
               </li> */}
-              <li className="md:border-none border-b-[1px] border-gradient ">
-                <a href="#product">
-                  <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">
-                    Product
-                  </div>
-                </a>
-              </li>
+            
             </ul>
           </div>
         </div>

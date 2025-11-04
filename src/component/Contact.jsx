@@ -91,12 +91,13 @@ const Contact = () => {
 
   return (
     <>
-      <div className="contact" id='contact' data-aos="fade-up" > 
+      <div className="contact" id='Contact' data-aos="fade-up" > 
         <div className='contact-left' data-aos="fade-right"     data-aos-duration="2000"  > <img src={Robot} alt="" className='contact-left-img'/>  </div>
         <div className='contact-right' data-aos="fade-left"  data-aos-duration="2000" >
           <div className='contact-right-a'>
             <h1 className='contact-right-a-h1'> GET IN TOUCH</h1>
             <div className='contact-right-div'></div>
+            <p className='contact-right-a-p1'>Looking to add custom technologies to your business! Connect us for free consultation</p>
           </div>
 
           <div className='contact-right-aa' id='submit' > 

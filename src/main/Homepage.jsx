@@ -13,6 +13,7 @@ import Header from '../component/Header'
 import Contact from '../component/Contact'
 import Fotter from '../component/Fotter'
 import Popup from '../component/Popup';
+import Voucher from "../component/Voucher"
 
 
 
@@ -39,6 +40,7 @@ const Homepage = () => {
  
  <Ourproduct/>
  <Informative/>
+ <Voucher/>
  <Contact/>
  <Fotter/>
 

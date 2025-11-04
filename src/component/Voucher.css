@@ -1,0 +1,274 @@
+.ourvision-heading{display: flex; flex-direction: column; align-items: center;}
+.whychoose-h1 {
+  padding: 0.5rem;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+  background: linear-gradient(
+    297deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(121, 121, 121, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.whychoose-p {
+  padding: 0.5rem 20rem;
+  font-size: 1.3rem;
+  letter-spacing: -2%;
+  font-weight: 300;
+  color: #D6D6D6;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+
+
+@media  (min-width :300px) and (max-width: 600px) {
+  
+  .whychoose-h1{  font-size: 2rem;}
+.whychoose-p{ font-size: 1rem; padding: 1rem;}
+
+
+}
+
+
+
+ @media  (min-width :600px) and (max-width: 760px) {
+
+   .whychoose-h1{  font-size: 2.5rem;}
+  .whychoose-p{ font-size: 1.2rem; padding: 0px 50px 0px 50px;}
+  
+
+   
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  (min-width : 760px) and (max-width: 980px) {
+ 
+  .whychoose-h1{  font-size: 3.7rem;}
+  .whychoose-p{ font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    width: 80%;}
+
+ 
+
+} 
+
+@media  (min-width : 200px) and (max-width: 410px){
+  .whychoose-h1{  text-align: center;}
+  .whychoose-p{ text-align: center;}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media  (min-width : 980px) and (max-width: 1280px) {
+.whychoose-h1{  font-size: 4rem;}
+.whychoose-p{ font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  width: 80%;}
+
+
+} 
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px 20px 5px 10px ;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: rgba(21, 37, 209, 0.986);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgb(255, 255, 255),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+/* 1 */
+.btn-1 {
+  background: rgba(6, 14, 131, 0.379);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+  color: white;
+}
+
+.main-voucher {
+   
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between items */
+  }
+  
+  /* Adjust column layout for smaller screens */
+  @media (max-width: 768px) {
+    .main-voucher {
+      grid-template-columns: repeat(1, 1fr); /* 1 column on smaller screens */
+    }
+  }
+  
+  /* Voucher card styling */
+  .col-sm-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Full width styling */
+  .w-full {
+    width: 100%;
+  }
+  
+  /* For larger screens such as tablets and laptops, adjust to 2 columns */
+  @media (min-width: 768px) {
+    .col-sm-4 {
+      width: 50%; /* Make each voucher take up 50% width in 2-column layout */
+    }
+    .h3{font-size: 2rem;}
+  }
+  
+
+  .h3{font-size: 3rem;}
+.voucher {
+    display: flex;
+flex-direction: column;
+width: 100%;
+
+    border-radius: .25rem;
+    padding: 0;
+  }
+  .voucher-body,
+  .voucher-footer {
+    display: flex;
+    position: relative;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    transition: box-shadow .3s ease;
+  }
+  .voucher-body {
+    overflow: hidden;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 0px 1px #e5e9ec;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  .voucher-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    box-shadow: inset 0px -1px 0px 1px #e5e9ec;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+  }
+  .voucher:hover .voucher-footer {
+    box-shadow: inset 0px -1px 0px 1px #1f6fad, 0 0.125rem 0.25rem rgba(33, 37, 41, 0.075) !important;
+  }
+  
+  .voucher-text {
+    flex: 1 1 auto;
+    padding: 1.25rem 2rem;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .voucher-img {
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  .voucher-border-left,
+  .voucher-border-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .voucher-border-right {
+    right: 0;
+  }
+  .voucher-border-left:before,
+  .voucher-border-right:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e5e9ec;
+    border-radius: 50%;
+    background: #f8f9fa; /* Change THIS when changing container background color*/
+  }
+  .voucher-border-left:before {
+    left: -15px;
+  }
+  .voucher-border-right:before {
+    right: -15px;
+  }
+  
+  .voucher-details .details-icon,
+  .voucher-details .details-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  .voucher-details .details-icon {
+    margin-right: 8px;
+    width: 24px;
+  }
+  
+  .voucher-details .text-title {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.882);
+  }
+  .voucher-details  {
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(65, 57, 57, 0.552);
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+
+  
+  .text-primary {
+    color: #151515 !important;
+  }
+  .bg-orange-gradient {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 85, 254, 0.404) 0%,
+        rgba(134, 41, 255, 0.666) 50%
+      );
+  }

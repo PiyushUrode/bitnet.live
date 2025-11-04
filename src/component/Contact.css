@@ -6,6 +6,7 @@
   flex-direction: row;
 }
 
+
 .contact-left {
   width: 50%;
   padding: 2rem;
@@ -48,6 +49,8 @@
   background-clip: text;
   color: transparent;
 }
+
+
 
 .contact-right-div {
   height: 1px;
@@ -148,6 +151,8 @@ button {
   box-shadow: none;
  }
 
+ .contact-right-a-p1{ font-size: 1.5rem;}
+
 
 @media (min-width: 300px) and (max-width: 600px) {
   .contact {
@@ -156,6 +161,8 @@ button {
     height: fit-content;
     background-color: black;
   }
+
+  .contact-right-a-p1{ font-size: 1rem;}
   .contact-left {
     width: 100%;
     padding: 0.25rem;
@@ -170,7 +177,7 @@ button {
     margin-bottom: 1rem;
   }
   .contact-right-a-h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .form {
     column-gap: 20px;
@@ -204,8 +211,9 @@ button {
     margin-top: 5px;
   }
   .contact-right-a-h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+  .contact-right-a-p1{ font-size: 1rem;}
   .info {
     font-size: 0.8rem;
   }
@@ -222,6 +230,7 @@ button {
   .contact-right-a-h1 {
     font-size: 2rem;
   }
+  .contact-right-a-p1{ font-size: 1.2rem;}
   .info {
     font-size: 0.8rem;
   }
